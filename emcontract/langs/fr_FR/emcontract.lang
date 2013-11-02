@@ -1,0 +1,31 @@
+# Dolibarr language file - fr_FR - Contrat de travail
+CHARSET=UTF-8
+
+Module20600Name=Contrat de travail
+Module20600Desc=Gestion des contrats de travail
+
+ContractTitle=Contrat de travail
+MenuListContract=Liste des contrats
+ListContract=Liste des contrats de travail
+MenuAddContract=Ajouter un contrat
+AddContract=Ajouter un contrat de travail
+DeleteContract=Supprimer le contrat de travail
+ConfirmDelete=Confirmer la suppression de ce contrat de travail ?
+EmContractCard=Fiche contrat
+
+Typecontract=Type de contrat
+CDI=Contrat à durée indéterminée
+CDD=Contrat à durée déterminée
+CA=Contrat d'apprentissage
+CP=Contrat de professionnalisation
+
+DateSignEmployee=Signature salarié
+DateSignManagement=Signature direction
+DateDPAE=Déclaration préalable à l'embauche
+DateMedicalExam=Visite médicale
+
+SendContract=Valider le contrat
+
+ErrorCantDeleteContract=Erreur, vous n'avez pas le droit de supprimer ce contrat de travail.
+NoDateStart=Pas de date de début du contrat renseigné
+NoUser=Pas d'utilisateur renseigné
