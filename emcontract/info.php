@@ -23,7 +23,12 @@
  * 	\brief      Page to show a employment contract information
  */
 
-require '../main.inc.php';
+$res=@include("../main.inc.php");
+if (! $res && file_exists("../main.inc.php")) $res=@include("../main.inc.php");
+if (! $res && file_exists("../../main.inc.php")) $res=@include("../../main.inc.php");
+if (! $res && file_exists("../../../main.inc.php")) $res=@include("../../../main.inc.php");
+if (! $res) die("Include of main fails");
+
 require_once DOL_DOCUMENT_ROOT.'/emcontract/core/lib/emcontract.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/emcontract/class/emcontract.class.php';
