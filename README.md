@@ -1,7 +1,9 @@
 Employment contract
 ============================
 
-Module to manage employment contract
+Module to manage employment contract into Dolibarr.
+
+This Module add a page into user's configuration to manage employment contract.
 
 INSTALL
 -------
